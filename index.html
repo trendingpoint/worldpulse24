@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WorldPulse24 - Latest News</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+      color: #111;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    h1 { font-size: 2rem; }
+    .news-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .news-card {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+    .news-card:hover {
+      transform: translateY(-5px);
+    }
+    .news-card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+    .news-card p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WorldPulse24 - Last 24 Hours' Highlights</h1>
+    <p>Stay informed. Always fresh. Always global.</p>
+  </header>
+
+  <section class="news-section">
+    <div class="news-card">
+      <h3>🌍 Global Climate Summit Concludes with New Agreements</h3>
+      <p>World leaders have agreed on stronger carbon reduction goals in the latest international summit.</p>
+    </div>
+    <div class="news-card">
+      <h3>📱 Apple Unveils New iPhone with AI Camera</h3>
+      <p>The new model features real-time AI image processing and improved battery life.</p>
+    </div>
+    <div class="news-card">
+      <h3>🚀 NASA Prepares for Manned Moon Mission in 2026</h3>
+      <p>Training begins for astronauts selected for Artemis III lunar expedition.</p>
+    </div>
+    <div class="news-card">
+      <h3>🎬 Historic Box Office Weekend for Indian Cinema</h3>
+      <p>Two major releases break records worldwide, marking a global moment for Bollywood.</p>
+    </div>
+    <div class="news-card">
+      <h3>⚽ Messi Scores Twice in Dramatic Copa Final</h3>
+      <p>Argentina wins in penalty shootout after 2-2 draw, Messi hailed for leadership.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 WorldPulse24. Built for awareness. Designed to be light.
+  </footer>
+</body>
+</html>
